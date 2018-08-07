@@ -1,0 +1,6 @@
+<map show-location="{{ showLocation }}"
+     scale="{{ scale }}"
+     longitude="{{ longitude }}"
+     latitude="{{ latitude }}">
+  <cover-view class="locate" bindtap="locateMe">locate me</cover-view>
+</map>
