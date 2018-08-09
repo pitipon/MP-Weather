@@ -3,12 +3,12 @@ map {
     height: 100vh;
   }
   
-  .locate {
+  .weather {
     background-color: #369;
     color: #ffffff;
-    width: 200rpx;
     text-align: center;
-    margin: 50rpx;
-    padding: 10rpx;
-    border-radius: 30px;
+    height:100px; 
+    width: 100px;
+    
+    
   }

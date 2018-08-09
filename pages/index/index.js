@@ -7,7 +7,14 @@ Page({
     latitude: 29.456546,
     scale: 14
   },
-  locateMe () {
+  clickWeather: function() {
+    wx.redirectTo({
+      url: "/pages/weather/index"
+    })
+  },
+  onLoad: function() {
+    let myApp = app
+    let that = this
     wx.getLocation({
       type: 'gcj02',
       success: res => {
@@ -18,6 +25,10 @@ Page({
           latitude: res.latitude,
           scale: 16
         })
+        myApp.globalData.location = {
+          longitude: res.longitude,
+          latitude: res.latitude
+        }
       }
     })
   }

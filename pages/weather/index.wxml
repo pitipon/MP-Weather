@@ -1,0 +1,7 @@
+<!--weather/index.wxml-->
+<view style="padding: 20px;">
+
+    <view style="font-weight: 500;">Weather Today</view>
+    <view>{{weather.daily.summary}}</view>
+
+</view>

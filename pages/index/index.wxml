@@ -2,5 +2,5 @@
      scale="{{ scale }}"
      longitude="{{ longitude }}"
      latitude="{{ latitude }}">
-  <cover-view class="locate" bindtap="locateMe">locate me</cover-view>
+  <cover-view  class="weather" bindtap="clickWeather"> Weather</cover-view>
 </map>
